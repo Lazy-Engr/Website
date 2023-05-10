@@ -1,0 +1,332 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: url(home_pic/wale.jpg) rgba(0, 0, 0, 0.10);
+    font-family: 'Open Sans';
+    background-repeat: no-repeat;
+    
+
+}
+
+ul {
+    list-style: none;
+
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+button {
+    outline: none;
+    border: none;
+}
+input {
+    outline: none;
+    border: none;
+}
+.logo img {
+    margin-top: 6px;
+    height: 135px;
+    width: 135px;
+   
+}
+
+/* navigation */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.2);
+    position: fixed ;
+    top: 0;
+    height: 12vh;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background: url(wale.jpg);
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    font-family: sans-serif;
+    height: 40px;
+    line-height: 43px;
+    margin: 3px;
+    padding: 0 20px;
+    display: flex;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: 0.8s ease;
+}
+nav ul li a:hover {
+    color: red;
+    
+}
+
+#header {
+    flex-direction: column;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 30px;
+    height: 97vh;
+    position: relative;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.info {
+    margin-top: 20%;
+    margin-bottom: 0%;
+   
+
+}
+.info h1 {
+    font-size: 40px;
+    color: white;
+    margin-left: 7%;
+    margin-bottom: 15px;
+    
+}
+
+.info p {
+    margin-top: 10px;
+    margin-left: 7%;
+    font-size: 18px;
+    color: white;
+}
+.info a {
+    font-weight: 20px;
+    color: red;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin: 30px 10px;
+    margin-left: 12%;
+    border-radius: 7px;
+    background: white;
+    transition: .5s ease;
+    margin-top: 10px;
+}
+.info a:hover {
+    color: white;
+    background-color: red;
+}
+span  {
+    color: red;
+}
+
+.image {
+    width: 30%;
+    height: 85%;
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+}
+.pic {
+    height: 105%;
+    position: absolute;
+    left: 17%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+.background {
+    height: 90%;
+    position: absolute;
+    left: 17%;
+    bottom: 0;
+    transform: translateX(-50%);
+
+}
+.icons a{
+    text-decoration: none;
+    color: white;
+}
+.icons ion-icon  {
+    margin-left: 11.6%;
+    font-size: 30px;
+    margin-right: -95px;
+    transition: .3s ease;
+    color: white;
+    /*color: rgb(59, 174, 209);*/
+}
+.icons ion-icon:hover {
+    color: red;
+}
+/* ABOUT SECTION */
+
+.headings {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2em;
+    font-family: century;
+    color: white;
+
+    
+}
+#about {
+    margin-top: 70px;
+}
+#pics .about {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2em;
+    font-family: century;
+    color: white;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+
+#intro h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    display: block;
+    text-align: center;
+    color: red;
+    font-size: 35px;
+}
+#pics {
+    display: flex;
+    padding: 80px;
+    
+}
+
+#pics img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+#intro {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    text-align: justify;
+    color: white;
+    font-size: 18px;
+    margin-top: -50px;
+    
+}
+
+
+/* Portfolio Section */
+#portfolio .headings {
+    margin-top: 50px;
+    padding: 25px;
+    margin-bottom: 0;
+    color: white;
+    
+    
+}
+
+.gallery {  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.gallery img {
+    width: 360px;
+    height: 200px;
+    margin: 15px;
+    border-radius: 5px;
+
+   
+}
+
+/* Services Section */
+
+#services .headings {
+    color: black;
+}
+#services .headingss {
+    margin-top: 0;
+}
+.headingss {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    font-family: century;
+    padding: 75px;
+}
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    border: 1px solid black;
+    margin: 25px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgb(255,45,45) 50%, white 50%);
+    background-size: 100% 200%;
+    transition:  all .8s ;
+    box-shadow: 0 0 10px rgb(255,45,45);
+    margin-top: -70px;
+
+}
+.row :hover {
+    background-position: left bottom;
+    border: none;
+    color: white;
+}
+
+/* Contact Section */
+
+#contact .headings {
+    padding: 25px;
+    margin-bottom: 0;
+    color: white;
+    margin-top: 80px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 20px 0px;
+}
+.input {
+    padding: 12px;
+    margin: 15px;
+    width: 30%;
+    border: none;
+    outline: none;
+}
+#msg {
+    padding: 12px;
+    margin: 15px;
+    width: 30%;
+    border: none;
+}
+.name {
+    padding: 12px;
+    margin: 15px;
+    width: 30%;
+    border: none;
+}
+#send {
+    padding: 12px;
+    width: 10%;
+    border: none;
+    border-radius: 2px;
+}
+#send:active {
+    color: white;
+    background-color: red;
+}
+
